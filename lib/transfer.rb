@@ -10,6 +10,6 @@ class Transfer
   end 
   
   def valid?
-    
+    true if 
   end 
 end
