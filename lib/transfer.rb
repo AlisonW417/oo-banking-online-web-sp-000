@@ -14,6 +14,8 @@ class Transfer
   end 
   
   def execute_transaction
+    if !@sender.valid?
+      puts ""
     if self.status != "complete" && @sender.valid?
       @sender.balance -= @amount 
       @receiver.balance += @amount 
