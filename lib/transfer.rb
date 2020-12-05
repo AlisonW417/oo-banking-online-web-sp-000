@@ -1,5 +1,6 @@
 class Transfer
   
-  def initialize 
+  def initialize(name_1, name_2, amount)
+    
   end 
 end
