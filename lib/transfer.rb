@@ -9,7 +9,9 @@ class Transfer
     @status = "pending"
   end 
   
+  
+  
   def valid?
-    true if @sender.Account.valid? && @receiver.Account.valid?
+    true if @sender.account.valid? && @receiver.account.valid?
   end 
 end
