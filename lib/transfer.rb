@@ -10,6 +10,6 @@ class Transfer
   end 
   
   def valid?
-    true if @sender.account.valid? && @receiver.account.valid?
+    true if @sender.Account.valid? && @receiver.Account.valid?
   end 
 end
