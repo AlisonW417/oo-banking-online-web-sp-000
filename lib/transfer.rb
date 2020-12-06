@@ -22,12 +22,8 @@ class Transfer
       @status = "rejected"
       return "Transaction rejected. Please check your account balance."
     end 
-      
-      
-      
-    #if !@sender.valid? && @sender.status != "closed" && @receiver.status != "closed"
-      ##@status = "rejected"
-      #return "Transaction rejected. Please check your account balance."
-    #elsif @status == "pending"
   end 
+  
+  
+  
 end
